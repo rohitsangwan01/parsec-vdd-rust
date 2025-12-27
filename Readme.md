@@ -9,8 +9,10 @@
 
 # Parsec VDD Rust
 
-[![Rust](https://img.shields.io/badge/rust-1.0+-orange.svg)](https://www.rust-lang.org/)
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
+[![Crates.io Version](https://img.shields.io/crates/v/parsec-vdd-rust)](https://crates.io/crates/parsec-vdd-rust)
+[![docs.rs page](https://docs.rs/parsec-vdd-rust/badge.svg)](https://docs.rs/parsec-vdd-rust)
+[![Crates.io Downloads](https://img.shields.io/crates/d/parsec-vdd-rust)](https://crates.io/crates/parsec-vdd-rust)
+[![Crates.io License](https://img.shields.io/crates/l/parsec-vdd-rust)](https://crates.io/crates/parsec-vdd-rust)
 
 Unofficial Rust client library and CLI tool for the [Parsec Virtual Display Driver](https://github.com/nomi-san/parsec-vdd). This project provides a safe, idiomatic Rust interface for managing virtual displays on Windows using the Parsec VDD driver.
 
@@ -54,11 +56,8 @@ cargo build --release
 
 Add this to your `Cargo.toml`:
 
-```toml
-[dependencies]
-parsec-vdd-rust = { path = "../parsec-vdd-rust" }
-# Or from git:
-# parsec-vdd-rust = { git = "https://github.com/yourusername/parsec-vdd-rust.git" }
+```sh
+cargo add parsec-vdd-rust
 ```
 
 ## Usage
